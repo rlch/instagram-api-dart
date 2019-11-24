@@ -1,0 +1,14 @@
+app-id: 451405722238094
+app-secret: 692f59f8a2ea2f96cb327b4af56fe206
+code: AQBMXv0DaUiSTSIVKwQc1ZlEtZTJVCW6cCtfsRgDM8JtZHdofKwdjnAQ-245AFz6AC_TR0njEW6qBN6rwKkmvHPMOm_2eeiYQ2Q_YpRXpm___Wld35_Rvbz6dDUapiaOp0_xtdnDAwKX6-OzY_22kDHQI67wl9N3_od_mSxpjNlSDze1wXpfm-icC3IvhyFMfCxOR7hkGoneggqwzgSl6WDCL-yIhs7QVWBFgksM8ztjTQ
+access-token: IGQVJWMzJ2MUpDa2R0SVBuNWpVQnplX2tGc3ZAkS2ZAYbzdGUXo5U1p4UGRjRzFMODZAGcUxOQTQ5bERoa3pBSkJWXzVOS2NRNUdfZAjNqdHRSWDBkUllITlJZAejdaTVc1MlNjUjR4OWE1MVg1d1pmM21HZAkRTTzdOQ29YRllr
+redirect-uri: https%3A%2F%2Forbitapp.com.au%2Finstagram%2Fauth%2F https://orbitapp.com.au/instagram/auth/
+
+
+curl -X POST \
+  https://api.instagram.com/oauth/access_token \
+  -F app_id=451405722238094 \
+  -F app_secret=692f59f8a2ea2f96cb327b4af56fe206 \
+  -F grant_type=authorization_code \
+  -F redirect_uri=https://orbitapp.com.au/instagram/auth/ \
+  -F code=AQCCWpGiklH99grirstEc2p8AH2Rlb6_JhnO8NTT4MmgpMUdavyT9gRokA-Hwq5eAVgnW0VBuuBtgxcFfZ_N6zZ56IjonRuw4A-pRduYQM-9c5FRUWuyoSHJS44mS1rUn4bDtPsQ5SpzCm7UPQrXy4haaCNl6BfC7W6yUoCUoncSNmVeBDAGxoX1RW5ed9g2KXvrWwrOCoiWFtFqovQmDU4cN91p2upaU3tUXmdisa5WDw
